@@ -1,0 +1,4 @@
+package updatestrategies
+
+class LostStrategy {
+}
