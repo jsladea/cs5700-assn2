@@ -1,4 +1,0 @@
-package updatestrategies
-
-class NoteAddedStrategy {
-}

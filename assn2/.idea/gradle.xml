@@ -4,12 +4,13 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/KotlinProject" />
-        <option name="gradleHome" value="$PROJECT_DIR$/../../../../Gradle/gradle-7.5.1" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../../../../Gradle/gradle-7.5.1" />
+        <option name="gradleJvm" value="22" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/KotlinProject" />
-            <option value="$PROJECT_DIR$/KotlinProject/composeApp" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/composeApp" />
           </set>
         </option>
       </GradleProjectSettings>
