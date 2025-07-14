@@ -15,11 +15,8 @@ class ShipmentDomainModel(val id: String, private val strategies: Map<UpdateType
     private val observers = mutableListOf<IObserver<ShipmentDomainModel>>()
 
     var status: ShipmentStatus = ShipmentStatus.CREATED
-        private set
     var currentLocation: String = ""
-        private set
     var expectedDelivery: Instant? = null
-        private set
     val notes: List<String>
         get() = _notes.toList()
     val updates: List<ShippingUpdateDomainModel>
